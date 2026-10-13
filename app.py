@@ -13,6 +13,13 @@ ROOT_DIR = Path(__file__).resolve().parent
 if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
+# If launched directly via `python app.py` (e.g. VS Code Play button), bootstrap Streamlit automatically
+if __name__ == "__main__" and not st.runtime.exists():
+    import subprocess
+    print("🚀 Launching RetainIQ Workforce Analytics Platform via Streamlit...")
+    subprocess.run([sys.executable, "-m", "streamlit", "run", str(Path(__file__).resolve())])
+    sys.exit(0)
+
 from src.config import (
     BEST_MODEL_PATH,
     MODEL_METADATA_PATH,
