@@ -217,3 +217,4 @@ with tab3:
             st.warning(f"SHAP explanation computation notice: {e}")
     else:
         st.info("Test data artifacts needed for SHAP evaluation.")
+

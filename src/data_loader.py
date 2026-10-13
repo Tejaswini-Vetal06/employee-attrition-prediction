@@ -283,3 +283,4 @@ def encode_target(
         )
 
     return encoded.astype(int).to_numpy()
+

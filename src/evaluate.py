@@ -181,3 +181,4 @@ def get_imbalance_explanation(attrition_rate: float) -> str:
         f"despite detecting 0% of departing staff (Recall = 0.00). "
         "Therefore, ROC-AUC, Recall, and Precision are significantly more reliable metrics for HR analytics."
     )
+

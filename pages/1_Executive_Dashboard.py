@@ -256,3 +256,4 @@ if "Age" in filtered_df.columns and "YearsAtCompany" in filtered_df.columns and 
     )
     fig_scatter.update_layout(get_plotly_layout("Employee Age vs Company Tenure", height=420))
     st.plotly_chart(fig_scatter, use_container_width=True)
+

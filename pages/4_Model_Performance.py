@@ -260,3 +260,4 @@ if ALL_MODELS_PATH.exists():
                     render_metric_card("F1-Score", f"{dyn_metrics['f1']:.3f}", "Harmonic mean", THEME_COLORS["secondary"])
     except Exception as e:
         st.warning(f"Interactive confusion matrix evaluation error: {e}")
+

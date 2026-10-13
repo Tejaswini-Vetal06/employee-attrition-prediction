@@ -166,3 +166,4 @@ def prepare_train_test_data(
     )
 
     return X_train, X_test, y_train, y_test, numerical_cols, categorical_cols
+

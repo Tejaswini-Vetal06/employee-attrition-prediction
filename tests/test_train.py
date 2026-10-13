@@ -55,3 +55,4 @@ def test_train_pipeline_execution():
     assert metadata["best_cv_score"] > 0.50
     assert "test_metrics" in metadata
     assert "feature_schema" in metadata
+

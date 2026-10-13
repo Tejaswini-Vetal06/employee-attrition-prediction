@@ -315,3 +315,4 @@ def get_cached_dataset(file_path: Optional[str] = None) -> Tuple[pd.DataFrame, A
 def get_cached_pipeline_and_metadata():
     """Caches model artifact loading in memory."""
     return load_trained_model()
+

@@ -60,3 +60,4 @@ def test_build_preprocessor_transformation_and_imputation():
     assert len(names) == transformed.shape[1]
     assert names[0] == "Age"
     assert names[1] == "MonthlyIncome"
+

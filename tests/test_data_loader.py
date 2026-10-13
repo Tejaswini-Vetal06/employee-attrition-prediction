@@ -75,3 +75,4 @@ def test_load_dataset_fallback():
     df, report = load_dataset(ensure_fallback=True)
     assert not df.empty
     assert report.is_valid
+

@@ -101,3 +101,4 @@ def test_validate_inference_input_warning_for_unknown_category(model_artifacts):
 
     is_valid, warnings, errors = validate_inference_input(input_with_novel_cat, metadata)
     assert any("not in training domain" in w for w in warnings)
+

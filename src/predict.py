@@ -194,3 +194,4 @@ def predict_employee_attrition(
         "model_used": metadata.get("selected_model_name", "Scikit-Learn Classifier"),
         "model_version": metadata.get("model_version", "1.0.0"),
     }
+
