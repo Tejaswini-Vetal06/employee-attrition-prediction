@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 💼 RetainIQ — AI-Powered Employee Attrition Prediction & HR Analytics Platform
 
 An enterprise-grade Workforce Intelligence and Employee Attrition Prediction web application built with **Python 3.11+**, **Streamlit**, **Scikit-learn**, and **Plotly**. RetainIQ empowers HR leadership to uncover multi-dimensional workforce patterns, evaluate probabilistic turnover risk, and take proactive, human-centric retention actions.
@@ -233,3 +234,6 @@ git push -u origin main
 - Built adhering to responsible AI guidelines and the IEEE Global Initiative on Ethics of Autonomous and Intelligent Systems.
 - Schema compatible with the IBM HR Analytics Employee Attrition dataset.
 
+=======
+# employee-attrition-prediction
+>>>>>>> 7f3cfd8f1e91cdfc90d172eefe3a7ef1ad99aa79
